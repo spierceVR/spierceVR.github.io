@@ -12,6 +12,8 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
+[Meme page](./meme-page.html).
+
 [Meme page](./another-page.html).
 
 There should be whitespace between paragraphs.
