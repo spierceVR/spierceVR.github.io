@@ -14,7 +14,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Meme page](./meme-page.md).
 
-[Meme page](./another-page.html).
+[Example page](./another-page.html).
 
 There should be whitespace between paragraphs.
 
