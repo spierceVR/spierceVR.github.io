@@ -2,6 +2,15 @@
 layout: default
 ---
 
+
+### Logo
+
+![Octocat](https://github.com/spierceVR/spierceVR.github.io/blob/master/_images/logo.png?raw=true)
+
+### Meme
+
+![Branching](https://github.com/spierceVR/spierceVR.github.io/blob/master/_images/munke.gif?raw=true)
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
@@ -92,13 +101,7 @@ end
   - level 2 item
 - level 1 item
 
-### Small image
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 
 ### Definition lists can be used with HTML syntax.
