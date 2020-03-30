@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-
+* [Home](./index.md)
+* [Meme Page](./meme-page.md)
+* [Example 404 Page](./another-page.html)
 
 ### Home
   This is my website's home page.
