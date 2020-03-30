@@ -3,17 +3,16 @@ layout: default
 ---
 
 
+### Home
+  This is my website's home page.
+
 ### Logo
 
 ![Octocat](https://github.com/spierceVR/spierceVR.github.io/blob/master/_images/logo.png?raw=true)
 
-### Meme
-
-![Branching](https://github.com/spierceVR/spierceVR.github.io/blob/master/_images/munke.gif?raw=true)
-
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+[Meme page](./another-page.html).
 
 There should be whitespace between paragraphs.
 
