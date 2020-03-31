@@ -19,18 +19,14 @@ layout: default
 ### Projects
 These are some things that I've been working on
 
-## Lua
+##### Lua
 *
 *
 
-## Java
+##### Java
 *
 *
 
-## Html/css
+##### Html/css
 *
 
-
-```
-The final element.
-```
