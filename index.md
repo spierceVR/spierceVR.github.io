@@ -20,7 +20,7 @@ layout: default
 These are some things that I've been working on
 
 #### Javascript 
-* [Chrome Plugin for checking minecraft usernames](https://grabify.link/1AENHP)
+* [Chrome Plugin for checking minecraft usernames](shorturl.at/fhlop)
 *
 
 #### Lua
