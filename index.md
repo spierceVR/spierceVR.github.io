@@ -2,7 +2,7 @@
 layout: default
 ---
 * [Home](./index.md)
-* [Meme Page](./meme-page.md)
+* [Resume](./resume.pdf)
 * [Example 404 Page](./another-page.html)
 
 ### Home
@@ -19,18 +19,10 @@ layout: default
 ### Projects
 These are some things that I've been working on
 
-#### Javascript 
-* [Chrome Plugin for checking minecraft usernames](shorturl.at/fhlop)
-*
-
 #### Lua
-*
+* [Thermal Detonator](https://github.com/spierceVR/thermal-detonator-addon)
 *
 
 #### Java
+* 1.12.2 Minecraft Mod
 *
-*
-
-#### Html/css
-*
-
