@@ -24,5 +24,5 @@ These are some things that I've been working on
 *
 
 #### Java
-* 1.12.2 Minecraft Mod
-*
+* [1.12.2 Minecraft Mod](https://github.com/spierceVR/1.12.2-Minecraft-Mod)
+* [Rock Paper Scissors Game](https://github.com/spierceVR/text-rock-paper-scissors)
