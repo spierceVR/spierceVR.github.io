@@ -13,15 +13,11 @@ layout: default
 ![Octocat](https://github.com/spierceVR/spierceVR.github.io/blob/master/_images/logo.png?raw=true)
 
 
-
-
-
 ### Projects
 These are some things that I've been working on
 
 #### Lua
 * [Thermal Detonator](https://github.com/spierceVR/thermal-detonator-addon)
-
 
 #### Java
 * [1.12.2 Minecraft Mod](https://github.com/spierceVR/1.12.2-Minecraft-Mod)
