@@ -2,7 +2,7 @@
 layout: default
 ---
 * [Home](./index.md)
-* [Resume](./resume.pdf)
+* [Resume](./Resume.html)
 * [Example 404 Page](./another-page.html)
 
 ### Home
