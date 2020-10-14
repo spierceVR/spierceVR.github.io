@@ -4,10 +4,10 @@ layout: default
 * [Home](./index.md)
 * [Resume](./Resume.html)
 * [Example 404 Page](./another-page.html)
-* [My Github](https://github.com/spierceVR)
+* [My GitHub](https://github.com/spierceVR)
 
 ### Home
-  This is my website's home page.
+ Welcome to my website's home page.
 
 ![Octocat](https://github.com/spierceVR/spierceVR.github.io/blob/master/_images/logo.png?raw=true)
 
