@@ -9,7 +9,7 @@ layout: default
 ### Home
  Welcome to my website's home page.
 
-![Octocat](_images/logo.png)
+![Octocat](_images/logo.png?raw=true)
 
 
 ### Projects
