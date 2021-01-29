@@ -9,7 +9,7 @@ layout: default
 ### Home
  Welcome to my website's home page.
 
-![Octocat](https://github.com/spierceVR/spierceVR.github.io/blob/master/_images/logo.png?raw=true)
+![Octocat](_images/logo.png)
 
 
 ### Projects
