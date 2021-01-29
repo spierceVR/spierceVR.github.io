@@ -9,7 +9,7 @@ layout: default
 ### Home
  Welcome to my website's home page.
 
-![Logo](/_images/logo.png)
+![Logo](images/logo.png)
 
 
 ### Projects
