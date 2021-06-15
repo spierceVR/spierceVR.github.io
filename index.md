@@ -28,4 +28,4 @@ These are some things that I've been working on
 #### C++
 * [Conway's Game of Life in OpenGL](https://github.com/spierceVR/conways_game_of_life_glfw)
 * [Sudoku Solver](https://github.com/spierceVR/SudokuSolver)
-<iframe width="800" height="600" src="https://www.youtube.com/embed/mHb-43Q6hzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/mHb-43Q6hzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
