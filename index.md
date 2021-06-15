@@ -28,4 +28,10 @@ These are some things that I've been working on
 #### C++
 * [Conway's Game of Life in OpenGL](https://github.com/spierceVR/conways_game_of_life_glfw)
 * [Sudoku Solver](https://github.com/spierceVR/SudokuSolver)
+<style>
+ iframe {
+    max-width: 100vw;
+    max-height: 56.25vw; /* 315/560 = .5625 */
+}
+</style>
 <iframe src="https://www.youtube.com/embed/mHb-43Q6hzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
