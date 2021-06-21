@@ -9,8 +9,6 @@ layout: default
 ### Home
  Welcome to my website's home page.
 
-![Logo](https://github.com/spierceVR/spierceVR.github.io/blob/master/_images/logo.png?raw=true)
-
 
 ### Projects
 These are some things that I've been working on
