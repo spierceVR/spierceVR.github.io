@@ -2,7 +2,7 @@
 layout: default
 ---
 * [Home](./index.md)
-* [Resume](./Resume.html)
+* [Resume](https://docs.google.com/document/d/e/2PACX-1vTd0PsmODLurJMshI-VLZmE-EXCLd5pAfgc03tEO1ljHithnS29Eh9FWv8dCtYBgOWBaksYTHDTOHcO/pub)
 * [Example 404 Page](./another-page.html)
 * [My GitHub](https://github.com/spierceVR)
 
