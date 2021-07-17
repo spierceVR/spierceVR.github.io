@@ -1,0 +1,169 @@
+html {
+    background-color: rgb(56, 61, 75);
+    color           : whitesmoke;
+    font-family     : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding : 0;
+    letter-spacing: 0.04em;
+}
+
+body{
+    margin:0;
+}
+
+h3{
+    letter-spacing: 0.06em;
+}
+
+.overlay {
+    height         : 100vh;
+    /*This part is important for centering*/
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.fadeIn {
+    margin-top: -100vh;
+    padding : 0;
+    margin-left: 0;
+    margin-right: 0;
+    z-index: 1;
+    opacity: 0;
+    animation: fadeInAnimation ease 2s 4.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    text-align: center;
+}
+
+.scrollSection{
+    height: 100vh;
+    display:flexbox;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.contentBoxContainer{
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.contentBoxContainerAbout{
+    align-content: center;
+}
+
+.contentBoxContainer + .contentBoxContainer{
+    margin-top: 20px;
+}
+
+.contentBoxContainer article{
+    border-radius: 5px;
+    background-color: rgb(80, 80, 80);
+    color: whitesmoke;
+    padding: 1%;
+    align-content: center;
+}
+
+.contentBoxContainerAbout article{
+    color: whitesmoke;
+    width: 20%;
+    padding: 2%;
+    margin: 20%;
+    align-content: center;
+    display: inline-block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 5px;
+}
+
+/* left */
+.left{
+    padding-top: 5vh;
+    text-align: center;
+    height: 20vh;
+}
+
+.left p span svg{
+    transform: translateY(3px);
+}
+
+.left p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.left h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.left a{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+/* right */
+.right{
+    width: 70%;
+    height: 50vh;
+    padding-left: 17%;
+    padding-top: 5%;
+    border-left: rgb(20, 21, 26) ridge;
+}
+
+.right h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    font-size: 1.8vw;
+}
+
+.right p{
+    font-size: 1.1rem;
+    font-size: 1.3vw;
+    padding-bottom: 10px;
+    margin:0;
+    margin-top: 2%;
+}
+
+.right a{
+    display: block;
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 100px;
+}
+
+.card{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15vh;
+    margin-bottom: 25vh;
+    background-color: rgb(12, 13, 15);
+    border-radius: 10px;
+    border-right: rgb(56, 61, 75) groove;
+    border-bottom: rgb(56, 61, 75) groove;
+}
+
+#avatar{
+    border-radius: 50%!important;
+    width: 108px;
+    height: 108px;
+}
+
+#Projects{
+    background-color: rgb(102, 102, 233);
+}
