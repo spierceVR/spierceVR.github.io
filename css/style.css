@@ -1,6 +1,5 @@
 html {
-    background-color: rgb(56, 61, 75);
-    background-color: rgb(12, 13, 15);
+    background-color: rgb(16, 24, 41);
     color           : whitesmoke;
     font-family     : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding : 0;
@@ -72,8 +71,7 @@ h3{
 
 .contentBoxContainer article{
     border-radius: 5px;
-    background-color: rgb(80, 80, 80);
-    background-color: rgb(12, 13, 15);
+    background-color: rgb(16, 24, 41);
     color: whitesmoke;
     padding: 1%;
     align-content: center;
@@ -92,17 +90,18 @@ h3{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     border-radius: 5px;
+    grid-auto-flow: column; 
+    grid-auto-columns: 40% 10% 40%; 
+    grid-auto-rows: 1fr; 
+    gap: 0px 10%; 
+    justify-items: center; 
 }
 
 /* left */
 .left{
-    padding-top: 5vh;
+    padding-top: 10%;
     text-align: center;
-    height: 20vh;
-}
-
-.left img{
-
+    padding-bottom: 10%;
 }
 
 .left p span svg{
@@ -129,9 +128,7 @@ h3{
 /* right */
 .right{
     width: 70%;
-    height: 50vh;
-    padding-left: 17%;
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 .right h2{
@@ -167,7 +164,7 @@ h3{
 
 #avatar{
     border-radius: 50%!important;
-    width: 25%;
+    width: 10vw;
     height: auto;
 }
 
@@ -194,12 +191,6 @@ h3{
         align-content: center;
     }
     .right{
-        width: 70%;
-        height: 50vh;
-        padding-left: 0%;
-        padding-top: 0%;
-        margin-top: 15%;
-        margin-right: 10%;
-        margin-left: 10%;
+        margin:0;
     }
 }
