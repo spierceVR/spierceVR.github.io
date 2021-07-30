@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(196, 195, 201);
+    background-color: #111;
+    background-size: cover;
+    padding-bottom: 200px;
+    margin: 0;
+    min-height: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 70%;
+}
+
+#particle-div {
+  margin: 0 auto;
+  width:800px;
+  height:500px;
+}
+
+header {
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+header h1{
+  color: white;
+}
+
+footer {
+  margin-top: 400px;
+  display: block;
+  clear: both;
+  height: 200px;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(11, 93, 126);
+  margin:0;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.nobull ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.nobull p{
+  color: #333;
+}
+
+.bar{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 5px;
+  padding-inline-start: 40px;
+}
+
+.bar ul li{
+  display: inline;
+  float: left;
+  border-radius: 5px;
+}
+
+.bar ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.bar li a:hover {
+  background-color: #111;
+}
+
+::backdrop{
+  color:black
+}
+
+.container{
+  margin: 3%;
+}
+
+footer p{
+  color:rgb(196, 195, 201);
+}
