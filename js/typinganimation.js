@@ -20,5 +20,5 @@ async function typingAnim() {
     document.getElementById("myNameTyped").innerHTML = "";
 }
 document.addEventListener("DOMContentLoaded", function (event) {
-    typingAnim()
+    typingAnim();
 });

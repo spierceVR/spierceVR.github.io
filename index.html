@@ -3,6 +3,8 @@
 <head>
     <title>Solomon Pierce</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/scrollToTop.js"></script>
+    <script src="js/scrollFade.js"></script>
     <script src="js/typinganimation.js"></script>
 </head>
 
@@ -48,19 +50,21 @@
                         <div class="right">
                             <h2>About</h2>
                             <p>Hi, I'm Solomon, an incoming freshman at UT Dallas for the 2021 fall semester. I'm highly
-                                passionate about developing software and using technology to solve problems. This is my
-                                personal website, built by me with pure CSS, HTML, and Javascript!</p>
+                                passionate about software development and using technology to solve problems. This is my
+                                personal website, built by me with pure HTML, CSS, and Javascript!</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="ScrollSection" id="Projects">
-                <h1>Projects</h1>
+                <i>
+                    <h1>Projects</h1>
+                </i>
                 <section class="contentBoxContainer">
                     <article class="spacer">
                     </article>
-                    <article>
+                    <article class="fadeOnScroll">
                         <h3>Conway's Game of Life</h3>
                         <p><img src="image/cpp.png" alt=""></p>
                         <strong>C++, OpenGL, and GLFW</strong>
@@ -68,7 +72,7 @@
                             My implementation of John Conway's legendary cellular automata.
                         </p>
                     </article>
-                    <article>
+                    <article class="fadeOnScroll">
                         <h3>Minecraft Username Sniper</h3>
                         <p><img src="image/java.png" alt=""></p>
                         <strong>Java 8's multithreading and async io, and Mojang's Minecraft API</strong>
@@ -77,13 +81,45 @@
                             competitors- humans and other bots.
                         </p>
                     </article>
-                    <article>
+                    <article class="fadeOnScroll">
                         <h3>Translation Discord Bot</h3>
                         <p><img src="image/python.png" alt=""></p>
                         <strong>Python, Discord.py, and RapidAPI</strong>
                         <p>
                             A discord bot with text commands that brings google translate's language translation
                             functionality to a discord server.
+                        </p>
+                    </article>
+                </section>
+
+
+                <section class="contentBoxContainer">
+                    <article class="spacer">
+                    </article>
+                    <article style="visibility: hidden;">
+                        <h3>Project name 1</h3>
+                        <p><img src="image/java.png" alt=""></p>
+                        <strong>Technologies used</strong>
+                        <p>
+                            filler text description of project.
+                        </p>
+                    </article>
+                    <article class="fadeOnScroll">
+                        <a href="https://solomonpierce.dev/raycast2D/">
+                            <h3>2D Raycasting</h3>
+                        </a>
+                        <p><img src="image/js.png" alt=""></p>
+                        <strong>Javascript and HTML5</strong>
+                        <p>
+                            A randomly generated 2D scene illuminated with dynamic, cursor-controlled raycasting.
+                        </p>
+                    </article>
+                    <article style="visibility: hidden;">
+                        <h3> project name 3</h3>
+                        <p><img src="image/python.png" alt=""></p>
+                        <strong>technologies used</strong>
+                        <p>
+                           filler text description of project.
                         </p>
                     </article>
                 </section>

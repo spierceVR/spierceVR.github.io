@@ -36,11 +36,23 @@ h3{
     text-align: center;
 }
 
+.fadeOnScroll {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+.fadeOnScroll.active{
+    opacity: 1;
+}
+
 .scrollSection{
-    height: 100vh;
+    height: 85vh;
     display:flexbox;
     padding-top: 5vh;
     padding-bottom: 5vh;
+}
+
+#Projects{
+    height:85vh;
 }
 
 @keyframes fadeInAnimation {
@@ -121,14 +133,34 @@ h3{
     font-size: 1.7vw;
 }
 
-.left a{
+a{
     font-size: 1.5rem;
     padding: 10px;
 }
+/* unvisited link */
+  a:link {
+    color: whitesmoke;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(219, 210, 250);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
 /* right */
 .right{
     width: 70%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .right h2{
@@ -167,10 +199,6 @@ h3{
     width: 10vw;
     height: auto;
 }
-
-/* #Projects{
-    background-color: rgb(35, 92, 145);
-} */
 
 @media only screen and (max-width: 768px) {
     .contentBoxContainer {
