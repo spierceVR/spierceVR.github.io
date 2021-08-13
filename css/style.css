@@ -144,7 +144,8 @@ h3 {
     border: none;
     background: rgb(12, 13, 15);
     transition: transform 300ms 50ms;
-    margin: 0 1vw 1vw;
+    margin: 0.25vw;
+    text-decoration: none;
   }
 
 .btn-social:hover {
@@ -206,6 +207,7 @@ a:active {
 
 .right p {
     font-size: 1vw;
+    text-indent: 2em;
     margin-top: 2%;
     margin: 0;
     padding-bottom: 10px;
@@ -238,6 +240,9 @@ a:active {
     #myNameTyped{
         font-size: x-large;
     }
+    h3{
+        font-size: medium;
+    }
     .contentBoxContainer {
         display: block;
     }
@@ -257,5 +262,16 @@ a:active {
     .right {
         margin: auto auto;
         padding-bottom: 10%;
+    }
+    .btn-social{
+        height: auto;
+        width : 3vw;
+    }
+    .btn-social img{
+        height: auto;
+        width : 3vw;
+    }
+    .empty{
+        display: none;
     }
 }
