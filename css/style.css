@@ -137,7 +137,7 @@ h3 {
 }
 
 .btn-social {
-    margin-top: 10%;
+    margin-top: 15%;
     height: auto;
     width: 2vw;
     border-radius: 25%;
@@ -156,6 +156,12 @@ h3 {
 .btn-social img{
     height: auto;
     width: 1.5vw;
+    transition: transform 300ms 50ms;
+}
+
+.btn-social img:hover{
+    transform: translateY(-0.5vh);
+    transition: transform 125ms;
 }
 
 #linkedin-img{
@@ -220,6 +226,11 @@ a:active {
     padding: 5px;
     width: 100px;
 }
+
+.socials {
+    margin-top : 8%;
+}
+
 
 .card {
     background-color: rgb(12, 13, 15);
