@@ -18,22 +18,22 @@
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#home" class="nav-link active">home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="#about" class="nav-link">about</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#experience" class="nav-link">experience</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#projects" class="nav-link">projects</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#skills" class="nav-link">skills</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link">contact</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -123,6 +123,185 @@
         </div>
     </section>
 
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer Intern</h3>
+                            <span class="company">Fannie Mae</span>
+                            <span class="duration">Jun 2024 - Aug 2024</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Orchestrated automatic deployment and ML model usage using Python, AWS Lambda functions, and S3</li>
+                            <li>Created and optimized machine learning models to analyze financial data and detect anomalies with AWS SageMaker</li>
+                            <li>Implemented model explainability using SHAP, enabling business stakeholders to visualize how features affect output score</li>
+                            <li>Built a Spring Boot GraphQL microservice to reduce latency and eliminate overfetching for clients of 10+ REST services</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Development Officer</h3>
+                            <span class="company">ACM UTD</span>
+                            <span class="duration">May 2022 - Present</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Building and maintaining tools for officers and interfaces for student resources for 900+ members and 100+ officers</li>
+                            <li>Member of ACM UTD Member Portal team developing React/Next.js applications</li>
+                            <li>HackUTDxACM HackPortal contributor for hackathon event management platform</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Lead Programming Instructor</h3>
+                            <span class="company">Minecraft U</span>
+                            <span class="duration">Aug 2018 - May 2021</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Taught problem solving and programming in Lua, Java, and C++ using Minecraft as a teaching tool</li>
+                            <li>Developed additional, personalized curricula for advanced students</li>
+                            <li>Mentored students and trained junior instructors/teaching assistants</li>
+                            <li>Utilized Agile methodology for project management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Raycasting Renderer</h3>
+                        <div class="project-links">
+                            <a href="https://solomonpierce.dev/raycast2D/" target="_blank" class="project-link">Live Demo</a>
+                            <a href="https://github.com/spierceVR/raycast2D" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Interactive "2.5D" scene illuminated with raycasting, inspired by classic videogame Wolfenstein 3D. 
+                        Built with pure JavaScript and HTML5 Canvas for real-time rendering.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">Canvas API</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Pringle Programming Language</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/MinecraftU/2022-computer-adventures-pringlelang" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Stack-oriented reverse polish notation programming language built from scratch. 
+                        Implemented tokenizer/lexer, parser, AST generator, and interpreter designed for speed and simplicity.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">CMake</span>
+                        <span class="tech-tag">Catch2</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>ACM Member Portal</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/acmutd/portal-next" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Open source project with 10+ developers for UT Dallas ACM chapter. 
+                        Improved recruitment and event management operations for 900+ members and 100+ officers.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">GraphQL</span>
+                        <span class="tech-tag">TypeScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Leetcode with Friends</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/acmutd/bsg" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        High-performance backend service built with Go for ACM UTD's competitive programming platform. 
+                        Implements efficient algorithms and data structures for contest management and user authentication.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Go</span>
+                        <span class="tech-tag">Backend Development</span>
+                        <span class="tech-tag">Algorithms</span>
+                        <span class="tech-tag">REST API</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>AI Chess Engine</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/MinecraftU/2023-computer-adventures" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        High-performance chess engine built in Rust that compiles to WebAssembly for web deployment. 
+                        Implements minimax algorithm with alpha-beta pruning for intelligent AI opponent gameplay.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Rust</span>
+                        <span class="tech-tag">WebAssembly</span>
+                        <span class="tech-tag">AI Algorithms</span>
+                        <span class="tech-tag">Game Development</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>HackPortal</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/acmutd/hackportal" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Comprehensive hackathon event management platform for ACM UTD's HackUTD events. 
+                        Handles participant registration, team formation, project submissions, and judging workflows for 1000+ participants.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">Event Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
@@ -196,183 +375,6 @@
                         <span class="skill-tag">Project Management</span>
                         <span class="skill-tag">OpenGL</span>
                         <span class="skill-tag">GLFW</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Raycasting Renderer</h3>
-                        <div class="project-links">
-                            <a href="https://solomonpierce.dev/raycast2D/" target="_blank" class="project-link">Live Demo</a>
-                            <a href="https://github.com/spierceVR/raycast2D" target="_blank" class="project-link">GitHub</a>
-                        </div>
-                    </div>
-                    <p class="project-description">
-                        Interactive "2.5D" scene illuminated with raycasting, inspired by classic videogame Wolfenstein 3D. 
-                        Built with pure JavaScript and HTML5 Canvas for real-time rendering.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">HTML5</span>
-                        <span class="tech-tag">Canvas API</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Pringle Programming Language</h3>
-                        <div class="project-links">
-                            <a href="https://github.com/MinecraftU/2022-computer-adventures-pringlelang" target="_blank" class="project-link">GitHub</a>
-                        </div>
-                    </div>
-                    <p class="project-description">
-                        Stack-oriented reverse polish notation programming language built from scratch. 
-                        Implemented tokenizer/lexer, parser, AST generator, and interpreter designed for speed and simplicity.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">C++</span>
-                        <span class="tech-tag">CMake</span>
-                        <span class="tech-tag">Catch2</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>ACM Member Portal</h3>
-                        <div class="project-links">
-                            <a href="https://github.com/acmutd/portal-next" target="_blank" class="project-link">GitHub</a>
-                        </div>
-                    </div>
-                    <p class="project-description">
-                        Open source project with 10+ developers for UT Dallas ACM chapter. 
-                        Improved recruitment and event management operations for 900+ members and 100+ officers.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">React.js</span>
-                        <span class="tech-tag">Next.js</span>
-                        <span class="tech-tag">GraphQL</span>
-                        <span class="tech-tag">TypeScript</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Binary Classifier Neural Network</h3>
-                        <div class="project-links">
-                            <a href="https://github.com/spierceVR/binary-classifier-nn" target="_blank" class="project-link">GitHub</a>
-                        </div>
-                    </div>
-                    <p class="project-description">
-                        Toy neural network implementation in Rust for binary classification tasks. 
-                        Demonstrates understanding of ML fundamentals and systems programming.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Rust</span>
-                        <span class="tech-tag">Machine Learning</span>
-                        <span class="tech-tag">Neural Networks</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Conway's Game of Life Visualizer</h3>
-                        <div class="project-links">
-                            <a href="https://github.com/spierceVR/conways_game_of_life_glfw" target="_blank" class="project-link">GitHub</a>
-                        </div>
-                    </div>
-                    <p class="project-description">
-                        Real-time visualization of Conway's Game of Life using OpenGL and GLFW. 
-                        Features interactive controls and optimized rendering for smooth performance.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">C++</span>
-                        <span class="tech-tag">OpenGL</span>
-                        <span class="tech-tag">GLFW</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>PERN Stack Todo Application</h3>
-                        <div class="project-links">
-                            <a href="https://github.com/spierceVR/PERN-Stack-todo-list" target="_blank" class="project-link">GitHub</a>
-                        </div>
-                    </div>
-                    <p class="project-description">
-                        Full-stack CRUD todo application built with PostgreSQL, Express, React, and Node.js. 
-                        Features responsive design with Bootstrap and RESTful API architecture.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">PostgreSQL</span>
-                        <span class="tech-tag">Express</span>
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">Node.js</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Professional Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Software Engineer Intern</h3>
-                            <span class="company">Fannie Mae</span>
-                            <span class="duration">Jun 2024 - Aug 2024</span>
-                        </div>
-                        <ul class="timeline-description">
-                            <li>Orchestrated automatic deployment and ML model usage using Python, AWS Lambda functions, and S3</li>
-                            <li>Created and optimized machine learning models to analyze financial data and detect anomalies with AWS SageMaker</li>
-                            <li>Implemented model explainability using SHAP, enabling business stakeholders to visualize how features affect output score</li>
-                            <li>Built a Spring Boot GraphQL microservice to reduce latency and eliminate overfetching for clients of 10+ REST services</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Development Officer</h3>
-                            <span class="company">ACM UTD</span>
-                            <span class="duration">May 2022 - Present</span>
-                        </div>
-                        <ul class="timeline-description">
-                            <li>Building and maintaining tools for officers and interfaces for student resources for 900+ members and 100+ officers</li>
-                            <li>Member of ACM UTD Member Portal team developing React/Next.js applications</li>
-                            <li>HackUTDxACM HackPortal contributor for hackathon event management platform</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Lead Programming Instructor</h3>
-                            <span class="company">Minecraft U</span>
-                            <span class="duration">Aug 2018 - May 2021</span>
-                        </div>
-                        <ul class="timeline-description">
-                            <li>Taught problem solving and programming in Lua, Java, and C++ using Minecraft as a teaching tool</li>
-                            <li>Developed additional, personalized curricula for advanced students</li>
-                            <li>Mentored students and trained junior instructors/teaching assistants</li>
-                            <li>Utilized Agile methodology for project management</li>
-                        </ul>
                     </div>
                 </div>
             </div>
