@@ -1,143 +1,461 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Solomon Pierce</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solomon Pierce - Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/scrollToTop.js"></script>
-    <script src="js/scrollFade.js"></script>
-    <script src="js/typinganimation.js"></script>
 </head>
-
 <body>
-    <header>
-        <div class="overlay">
-            <div id="myNameTyped">
-                <h1></h1>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Solomon Pierce</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </div>
-    </header>
-    <main>
-        <div class="fadeIn">
-            <div class="ScrollSection" id="About">
-                <div class="card">
-                    <div class="grid">
-                        <div class="left">
-                            <img id="avatar" src="image/avatar.png"></img>
-                            <h3>Solomon Pierce</h3>
-                            <p>Computer Science - Class of 2025</p>
-                            <p>
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="-0.3vh" width="1.3vw"
-                                        height="1.3vw" viewBox="0 0 172 172" style=" fill:#000000;">
-                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                            font-weight="none" font-size="none" text-anchor="none"
-                                            style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="none"></path>
-                                            <g fill="#ffffff">
-                                                <path
-                                                    d="M86,14.40332c-27.63467,0 -50.11068,22.49001 -50.11068,50.12467c0,32.12817 42.76138,84.31774 44.58171,86.5179l5.52897,6.70475l5.52897,-6.70475c1.82033,-2.20733 44.58171,-54.38974 44.58171,-86.5179c-0.00001,-27.64183 -22.47601,-50.12467 -50.11068,-50.12467zM86,28.73665c19.72983,0 35.77735,16.06151 35.77735,35.79134c-0.00001,19.38583 -22.31835,52.72707 -35.77735,70.3929c-13.459,-17.6515 -35.77734,-50.97841 -35.77734,-70.3929c0,-19.72983 16.04751,-35.79134 35.77734,-35.79134zM86,46.58333c-9.89717,0 -17.91667,8.0195 -17.91667,17.91667c0,9.89717 8.0195,17.91667 17.91667,17.91667c9.89717,0 17.91667,-8.0195 17.91667,-17.91667c0,-9.89717 -8.0195,-17.91667 -17.91667,-17.91667z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </span>
-                                University of Texas at Dallas
-                            </p>
-                            <!-- add clickable icons for github and maybe linkedin later-->
-                            <div class="socials">
-                                <a class="btn-social" href='https://github.com/spierceVR' type="button" target="_blank" rel="noopener noreferrer">
-                                    <img src="image/github.png" alt="github icon">
-                                </a>
-                                <a class="btn-social" href='https://www.linkedin.com/in/solomon-pierce-0878631b6/' type="button" target="_blank" rel="noopener noreferrer">
-                                    <img class="linkedin-img" src="image/linkedin.png" alt="linkedin icon">
-                                </a>
-                            </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="accent">Solomon Pierce</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Software Engineer & CS Student</h2>
+                    <p class="hero-description">
+                        Passionate about building innovative solutions with modern technologies. 
+                        Currently pursuing Computer Science at UT Dallas and working as a Software Engineering Intern at Fannie Mae.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <img src="image/avatar.png" alt="Solomon Pierce" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hi, I'm Solomon, a computer science student at UT Dallas with a passion for solving complex problems through technology. 
+                        I'm an avid learner of software engineering disciplines and love using technology to create meaningful solutions.
+                    </p>
+                    <p>
+                        My interests span across frontend and backend development, machine learning, virtual reality, and quantum computing. 
+                        Currently, I'm building full-stack web applications and actively seeking internship and research opportunities.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>3.2</h3>
+                            <p>GPA</p>
                         </div>
-                        <div class="right">
-                            <h2>About</h2>
-                            <p>Hi, I'm Solomon, a junior at UT Dallas. This is my
-                                personal website, built with pure HTML, CSS, and Javascript!</p>
-                            <p> I'm an avid learner of any and all software engineering disciplines and I love using technology to solve problems. </p>
-                            <p>
-                                I'm interested in game dev, machine learning, virtual reality, and quantum computing.
-                                Currently, I'm building full-stack web applications and looking for internship and
-                                research opportunities. </p>
+                        <div class="stat-item">
+                            <h3>2025</h3>
+                            <p>Graduation</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>20+</h3>
+                            <p>Projects</p>
                         </div>
                     </div>
                 </div>
-                <div class="arrow bounce fadeOutOnScroll"></div>
-            </div>
-
-            <div class="ScrollSection" id="Projects">
-                <i>
-                    <h1>Projects</h1>
-                </i>
-                <section class="contentBoxContainer">
-                    <article class="spacer">
-                    </article>
-                    <article class="fadeOnScroll">
-                        <h3>ACM Member Portal</h3>
-                        <p><img src="image/react.png" alt=""></p>
-                        <strong>React.js, Next.js, GraphQL</strong>
-                        <p>
-                            An open source project with 10+ other developers at my university chapter of ACM. 
-                            We develop and maintain a web application with a cohesive user experience that improved and simplified our student org's recruitment and event management operations
-                        </p>
-                    </article>
-                    <article class="fadeOnScroll">
-                        <h3>"Pringle", a programming language interpreter</h3>
-                        <p><img src="image/cpp.png" alt=""></p>
-                        <strong>C++, CMake, Catch2</strong>
-                        <p>
-                            I worked on a team of two to build a tokenizer/lexer, parser, abstract syntax tree generator, and interpreter from scratch. We designed the language from the ground up for speed and simplicity
-                        </p>
-                    </article>
-                    <article class="fadeOnScroll">
-                        <a href="https://solomonpierce.dev/raycast2D/">
-                            <h3>Raycasting Renderer</h3>
-                        </a>
-                        <p><img src="image/js.png" alt=""></p>
-                        <strong>Javascript and HTML5</strong>
-                        <p>
-                            Uses pure javascript to achieve a randomly generated, interactive "2.5D" scene illuminated with raycasting, an interesting graphics technique used by the classic videogame Wolfenstein 3D
-                        </p>
-                    </article>
-                </section>
-
-
-                <section class="contentBoxContainer">
-                    <article class="spacer">
-                    </article>
-                    <article class="empty" style="visibility: hidden;">
-                        <h3>Project name 1</h3>
-                        <p><img src="image/java.png" alt=""></p>
-                        <strong>Technologies used</strong>
-                        <p>
-                            filler text description of project.
-                        </p>
-                    </article>
-                    <article class="empty" style="visibility: hidden;">
-                        <h3> project name 3</h3>
-                        <p><img src="image/python.png" alt=""></p>
-                        <strong>technologies used</strong>
-                        <p>
-                            filler text description of project.
-                        </p>
-                    </article>
-                    <article class="empty" style="visibility: hidden;">
-                        <h3> project name 3</h3>
-                        <p><img src="image/python.png" alt=""></p>
-                        <strong>technologies used</strong>
-                        <p>
-                            filler text description of project.
-                        </p>
-                    </article>
-                </section>
+                <div class="about-info">
+                    <div class="info-card">
+                        <h3>Education</h3>
+                        <div class="info-item">
+                            <h4>Bachelor of Science - Computer Science</h4>
+                            <p>The University of Texas at Dallas</p>
+                            <span>Aug 2021 - May 2025</span>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <h3>Certifications</h3>
+                        <ul class="cert-list">
+                            <li>Intermediate ML (Kaggle)</li>
+                            <li>2024 Future Housing Leaders Badge</li>
+                            <li>Introduction to ESG (LinkedIn)</li>
+                            <li>Pandas (Kaggle)</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </main>
-</body>
+    </section>
 
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Rust</span>
+                        <span class="skill-tag">Go</span>
+                        <span class="skill-tag">Lua</span>
+                        <span class="skill-tag">OCaml</span>
+                        <span class="skill-tag">Prolog</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">WebAssembly</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend & Database</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">GraphQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Microservices</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">AWS Lambda</span>
+                        <span class="skill-tag">AWS SageMaker</span>
+                        <span class="skill-tag">S3</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">CMake</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Machine Learning & AI</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Scikit-Learn</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">SHAP</span>
+                        <span class="skill-tag">Neural Networks</span>
+                        <span class="skill-tag">Data Analysis</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Methodologies</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Agile</span>
+                        <span class="skill-tag">Project Management</span>
+                        <span class="skill-tag">OpenGL</span>
+                        <span class="skill-tag">GLFW</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Raycasting Renderer</h3>
+                        <div class="project-links">
+                            <a href="https://solomonpierce.dev/raycast2D/" target="_blank" class="project-link">Live Demo</a>
+                            <a href="https://github.com/spierceVR/raycast2D" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Interactive "2.5D" scene illuminated with raycasting, inspired by classic videogame Wolfenstein 3D. 
+                        Built with pure JavaScript and HTML5 Canvas for real-time rendering.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">Canvas API</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Pringle Programming Language</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/MinecraftU/2022-computer-adventures-pringlelang" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Stack-oriented reverse polish notation programming language built from scratch. 
+                        Implemented tokenizer/lexer, parser, AST generator, and interpreter designed for speed and simplicity.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">CMake</span>
+                        <span class="tech-tag">Catch2</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>ACM Member Portal</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/acmutd/portal-next" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Open source project with 10+ developers for UT Dallas ACM chapter. 
+                        Improved recruitment and event management operations for 900+ members and 100+ officers.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">GraphQL</span>
+                        <span class="tech-tag">TypeScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Binary Classifier Neural Network</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/spierceVR/binary-classifier-nn" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Toy neural network implementation in Rust for binary classification tasks. 
+                        Demonstrates understanding of ML fundamentals and systems programming.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Rust</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Neural Networks</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Conway's Game of Life Visualizer</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/spierceVR/conways_game_of_life_glfw" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Real-time visualization of Conway's Game of Life using OpenGL and GLFW. 
+                        Features interactive controls and optimized rendering for smooth performance.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">OpenGL</span>
+                        <span class="tech-tag">GLFW</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>PERN Stack Todo Application</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/spierceVR/PERN-Stack-todo-list" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Full-stack CRUD todo application built with PostgreSQL, Express, React, and Node.js. 
+                        Features responsive design with Bootstrap and RESTful API architecture.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer Intern</h3>
+                            <span class="company">Fannie Mae</span>
+                            <span class="duration">Jun 2024 - Aug 2024</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Orchestrated automatic deployment and ML model usage using Python, AWS Lambda functions, and S3</li>
+                            <li>Created and optimized machine learning models to analyze financial data and detect anomalies with AWS SageMaker</li>
+                            <li>Implemented model explainability using SHAP, enabling business stakeholders to visualize how features affect output score</li>
+                            <li>Built a Spring Boot GraphQL microservice to reduce latency and eliminate overfetching for clients of 10+ REST services</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Development Officer</h3>
+                            <span class="company">ACM UTD</span>
+                            <span class="duration">May 2022 - Present</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Building and maintaining tools for officers and interfaces for student resources for 900+ members and 100+ officers</li>
+                            <li>Member of ACM UTD Member Portal team developing React/Next.js applications</li>
+                            <li>HackUTDxACM HackPortal contributor for hackathon event management platform</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Lead Programming Instructor</h3>
+                            <span class="company">Minecraft U</span>
+                            <span class="duration">Aug 2018 - May 2021</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Taught problem solving and programming in Lua, Java, and C++ using Minecraft as a teaching tool</li>
+                            <li>Developed additional, personalized curricula for advanced students</li>
+                            <li>Mentored students and trained junior instructors/teaching assistants</li>
+                            <li>Utilized Agile methodology for project management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always interested in discussing new opportunities, innovative projects, 
+                        and collaborations. Feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-value">Arlington, Texas</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">University</span>
+                            <span class="contact-value">UT Dallas</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Status</span>
+                            <span class="contact-value">Open to Opportunities</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-links">
+                    <a href="https://github.com/spierceVR" target="_blank" class="contact-link">
+                        <div class="link-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </div>
+                        <div class="link-content">
+                            <h4>GitHub</h4>
+                            <p>Check out my repositories</p>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/solomon-pierce/" target="_blank" class="contact-link">
+                        <div class="link-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </div>
+                        <div class="link-content">
+                            <h4>LinkedIn</h4>
+                            <p>Connect professionally</p>
+                        </div>
+                    </a>
+                    <a href="https://solomonpierce.dev" target="_blank" class="contact-link">
+                        <div class="link-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                        <div class="link-content">
+                            <h4>Portfolio</h4>
+                            <p>Visit my website</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Solomon Pierce. Built with HTML, CSS, and JavaScript.</p>
+                <div class="footer-links">
+                    <a href="#home">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
 </html>
